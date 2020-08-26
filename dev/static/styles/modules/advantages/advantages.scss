@@ -4,15 +4,32 @@
   background-repeat: no-repeat; // не повторять изображение
   background-size: cover; // чтобы изображение растягивалось
   background-position: center; //располагаем изображение по центру
-  min-height: 285px; // нужно обязательно указывать
+  min-height: 600px; // нужно обязательно указывать
 }
 
 .advantages__inner{
+  padding-top: 40px;
+}
+
+.advantages__title-box{
+  color: #46e8a9;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 70px;
+
+}
+
+.advantages__box{
   color: #ffffff;
   text-align: center;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 80px;
 }
+
 
 .advantages__item{
   max-width: 360px;
@@ -23,35 +40,55 @@
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 24px;
-  font-weight: 500;
-  padding: 60px 0px 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 70px 0px 15px;
   position: relative;
 
+  //&:before{
+  //  content: '';
+  //  position: absolute;
+  //  width: 40px;
+  //  height: 40px;
+  //  border: 2px solid #ffc222;
+  //  top: 0;
+  //  left: 50%;
+  //  transform: translateX(-50%);
+  //}
   &:before{
-    content: '';
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border: 2px solid #ffc222;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  &:after{
     content: "\f00c";
     font-family: 'icomoon';
     position: absolute;
-    font-size: 14px;
+    font-size: 40px;
+    font-weight: normal;
     top: 9px;
     left: 50%;
     transform: translateX(-50%);
   }
+  &.title-1:before{
+    content: "\f1ec";
+  }
+  &.title-2:before{
+    content: "\e905";
+  }
+  &.title-3:before{
+    content: "\e016";
+  }
+  &.title-4:before{
+    content: "\e906";
+  }
 }
 
 .advantages__text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
   line-height: 24px;
   color: #d3d2d2;
-  letter-spacing: .14px;
+  letter-spacing: .1px;
   max-width: 360px;
   width: 100%;
+}
+
+.advantages__box-btn{
+  text-align: center;
 }
