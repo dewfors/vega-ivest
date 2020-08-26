@@ -1,0 +1,59 @@
+.info__inner{
+  padding: 50px 0;
+}
+
+.info__items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.info__item{
+  max-width: 450px;
+  width: 100%;
+  text-align: center;
+
+  background-repeat: no-repeat; // не повторять изображение
+  background-size: auto; // чтобы изображение растягивалось
+  background-position: top center; //располагаем изображение по центру
+  //min-height: 500px; // нужно обязательно указывать
+  min-height: 200px; // нужно обязательно указывать
+  padding: 60px 0;
+
+  &.info-1{
+    background-image: url("../images/content/info/info-25.png");
+  }
+  &.info-2{
+    background-image: url("../images/content/info/info-03.png");
+  }
+  &.info-3{
+    background-image: url("../images/content/info/info-04.png");
+  }
+  &.info-4{
+    background-image: url("../images/content/info/info-100.png");
+  }
+
+
+}
+
+.info__title{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 40px;
+  color: #000000;
+  font-weight: 700;
+  letter-spacing: 1.1px;
+
+}
+.info__text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  color: #5e5e5e;
+  font-weight: 400;
+  letter-spacing: .2px;
+
+}
+
+
+
