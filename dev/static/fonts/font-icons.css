@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('font-icons/icomoon.eot?rzjaox');
+  src:  url('font-icons/icomoon.eot?rzjaox#iefix') format('embedded-opentype'),
+    url('font-icons/icomoon.ttf?rzjaox') format('truetype'),
+    url('font-icons/icomoon.woff?rzjaox') format('woff'),
+    url('font-icons/icomoon.svg?rzjaox#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wallet:before {
+  content: "\e016";
+}
+.icon-calendar:before {
+  content: "\e900";
+}
+.icon-time:before {
+  content: "\e901";
+}
+.icon-wallet1:before {
+  content: "\e902";
+}
+.icon-abacus:before {
+  content: "\e903";
+}
+.icon-unlocked:before {
+  content: "\e904";
+}
+.icon-clock:before {
+  content: "\e905";
+}
+.icon-calendar1:before {
+  content: "\e906";
+}
+.icon-check:before {
+  content: "\e907";
+}
+.icon-percent:before {
+  content: "\e908";
+}
+.icon-calculator:before {
+  content: "\e909";
+}
+.icon-travel-case:before {
+  content: "\e90a";
+}
+.icon-envelope-o:before {
+  content: "\f003";
+}
+.icon-check1:before {
+  content: "\f00c";
+}
+.icon-map-marker:before {
+  content: "\f041";
+}
+.icon-phone:before {
+  content: "\f095";
+}
+.icon-briefcase:before {
+  content: "\f0b1";
+}
+.icon-bars:before {
+  content: "\f0c9";
+}
+.icon-navicon:before {
+  content: "\f0c9";
+}
+.icon-reorder:before {
+  content: "\f0c9";
+}
+.icon-suitcase:before {
+  content: "\f0f2";
+}
+.icon-angle-left:before {
+  content: "\f104";
+}
+.icon-angle-right:before {
+  content: "\f105";
+}
+.icon-quote-right:before {
+  content: "\f10e";
+}
+.icon-calculator1:before {
+  content: "\f1ec";
+}

@@ -1,0 +1,139 @@
+.slider {
+  background-image: url("../images/content/superfoods-1.jpg"); // установка изображения
+  background-repeat: no-repeat; // не повторять изображение
+  background-size: cover; // чтобы изображение растягивалось
+  background-position: center; //располагаем изображение по центру
+  //min-height: 500px; // нужно обязательно указывать
+  min-height: 70vh; // нужно обязательно указывать
+}
+
+.slider__item{
+  outline: none;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+
+.slider__item-content {
+  //text-align: center;
+  //padding-top: 100px;
+  max-width: 500px;
+  //margin: 0 auto;
+
+}
+
+.slider__title {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 46px;
+  line-height: 60px;
+  color: #46e8a9;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 22px;
+}
+
+.slider__text {
+  line-height: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+
+.slider__item-list{
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.list__item {
+  line-height: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  //margin-bottom: 50px;
+  padding-left: 80px;
+  position: relative;
+  &:before{
+    font-family: 'icomoon';
+    //font-size: 14px;
+    content: '\f105';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%);
+    left: 0;
+  }
+  &.item-1:before{
+    font-size: 50px;
+    content: '\f0f2';
+    color: #FFFFFF;
+  }
+  &.item-2:before{
+    font-size: 50px;
+    content: '\e908';
+    color: #FFFFFF;
+  }
+  &.item-3:before{
+    font-size: 50px;
+    content: '\e904';
+    color: #FFFFFF;
+  }
+  &.item-4:before{
+    font-size: 50px;
+    content: '\e907';
+    color: #FFFFFF;
+  }
+
+}
+
+.slider__inner {
+  position: relative;
+}
+
+.slick-btn {
+  position: absolute;
+  top: 70%;
+  z-index: 3;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: #ffc222;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+
+  &.slick-disabled {
+    background-color: transparent;
+    cursor: default;
+  }
+
+  &:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.slick-next {
+  right: 0;
+
+  &:before {
+    content: "\f105";
+    font-family: 'icomoon';
+  }
+}
+
+.slick-prev {
+  left: 0;
+
+  &:before {
+    content: "\f104";
+    font-family: 'icomoon';
+  }
+}

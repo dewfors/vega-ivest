@@ -1,0 +1,50 @@
+.default-btn{
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 8px 30px 8px 24px;
+  border: 1px solid #ffc222;
+  border-right-width: 20px;
+  position: relative;
+  outline: none;
+  &:after{
+    font-family: 'icomoon';
+    //font-size: 14px;
+    content: '\f105';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -12px;
+  }
+}
+.default-btn-second{
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #373636;
+  font-weight: 400;
+  letter-spacing: .35px;
+  padding: 5px 40px;
+  border: 3px solid #e6e6e6;
+  outline: none;
+}
+
+.default-btn-invite{
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: #46e8a9;
+  line-height: 40px;
+  color: #000;
+  font-weight: 700;
+  letter-spacing: .35px;
+  padding: 10px 50px;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  outline: none;
+}

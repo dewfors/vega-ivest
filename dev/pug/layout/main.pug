@@ -1,0 +1,43 @@
+include ../helpers/mixins
+block variables
+
+doctype html
+html(lang="ru-RU")
+	head
+		meta(charset="utf-8")
+		title #{title}
+		<!--[if IE]>
+		meta(http-equiv='X-UA-Compatible', content="IE = edge")
+		<![endif]-->
+		meta(name="viewport" content="width=device-width,initial-scale=1")
+		meta(name="keywords" content="")
+		link(href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Roboto:400,500,700&amp;subset=cyrillic"
+			rel="stylesheet")
+		link(rel="stylesheet" type='text/css' href="static/fonts/font-icons.css")
+		link(rel="stylesheet" type='text/css' href="static/css/jquery.fancybox.min.css")
+		link(rel="stylesheet" type='text/css' href="static/css/slick.css")
+		link(rel="stylesheet" type='text/css' href="static/css/jquery.formstyler.css")
+		//link(rel="stylesheet" type='text/css' href="static/css/jquery.formstyler.theme.css")
+		link(rel="stylesheet" type='text/css' href="static/css/styles.css")
+	body
+		include ../modules/header/header
+		include ../modules/slider/slider
+		include ../modules/services/services
+		include ../modules/about/about
+		include ../modules/form/form
+		include ../modules/advantages/advantages
+		include ../modules/news/news
+		include ../modules/modals/modals
+
+		block content
+
+		include ../modules/footer/footer
+
+
+		script(src="static/js/vendor/jquery-3.3.1.min.js")
+		//script(src="static/js/vendor/libs.js")
+		script(src="static/js/vendor/jquery.fancybox.min.js")
+		script(src="static/js/vendor/slick.min.js")
+		script(src="static/js/vendor/jquery.formstyler.min.js")
+		script(src="static/js/main.js")
+		block script

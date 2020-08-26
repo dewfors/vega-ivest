@@ -1,0 +1,31 @@
+@media (max-width: 1156px) {
+  .form__inner{
+    background-image: none;
+  }
+}
+@media (max-width: 900px) {
+  .form{
+    padding-bottom: 25px;
+  }
+  .form__box-inner{
+    display: block;
+    & .jq-selectbox__select{
+      margin-bottom: 10px;
+    }
+
+  }
+
+  .form__box{
+    padding-top: 0;
+  }
+
+  .form__box-left{
+    max-width: 100%;
+  }
+  .form__box-right{
+    max-width: 100%;
+  }
+}
+
+
+

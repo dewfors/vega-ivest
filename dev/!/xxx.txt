@@ -1,0 +1,23 @@
+=====================================
+создание шрифта с выбранными иконками
+сайт
+https://icomoon.io/
+подключал в static/fonts/font-icons
+
+=====================================
+плагин для слайдера
+slick slider
+сайт
+https://kenwheeler.github.io/slick/
+
+кладем
+slick.css -в папку css и подключаем к странице
+slick.min.js -в папку js и подключаем к странице
+
+======================================
+стилизация элементов формы
+jquery form styler
+
+http://dimox.name/jquery-form-styler/
+
+
