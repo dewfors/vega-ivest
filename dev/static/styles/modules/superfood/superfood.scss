@@ -1,0 +1,38 @@
+.superfood__inner{
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+.superfood__top{
+  padding-bottom: 30px;
+}
+
+.superfood__content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.superfood__content-text{
+  max-width: 30%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+
+  p{
+    margin-bottom: 30px;
+  }
+  ul{
+    list-style: square;
+    padding-left: 30px;
+  }
+
+}
+
+.superfood__content-slider{
+  max-width: 60%;
+  width: 100%;
+  background-color: #ffffff;
+  //box-shadow: 0 5px 15px 1px rgba(128, 127, 127, .13);
+  //padding: 60px 35px 45px 70px;
+
+}
