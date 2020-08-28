@@ -1,0 +1,40 @@
+.protection {
+  background-image: url("../images/content/protection-fon.jpg"); // установка изображения
+  background-repeat: no-repeat; // не повторять изображение
+  background-size: cover; // чтобы изображение растягивалось
+  background-position: center; //располагаем изображение по центру
+  //min-height: 500px; // нужно обязательно указывать
+  min-height: 50vh; // нужно обязательно указывать
+  padding: 50px 0;
+}
+
+.protection__inner{
+  background-color: rgba(255, 255, 255, .85);
+  padding: 30px 30px;
+}
+
+.protection__top{
+  padding-bottom: 30px;
+}
+
+.protection__title-box{
+  max-width: 100%;
+}
+
+.protection__content{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+
+  li{
+    list-style: square inside;
+    padding-bottom: 20px;
+  }
+
+}
+
+
+
+
+
+
