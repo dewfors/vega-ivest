@@ -1,0 +1,45 @@
+section.why{
+  background-color: #92f6d2;
+}
+
+.why__inner{
+  padding: 30px 0;
+}
+
+.why__title-box{
+  max-width: 100%;
+  //width: 100%;
+}
+
+.why__content{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.why__content-text{
+  max-width: 75%;
+  padding-right: 30px;
+
+  p{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.why__content-img{
+  max-width: 25%;
+}
+
+.why__content-btn{
+  text-align: center;
+}
+
+
+
+
+
+
+
