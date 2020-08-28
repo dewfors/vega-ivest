@@ -26,12 +26,14 @@
 }
 
 .team__content-text{
+  max-width: 60%;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
   line-height: 30px;
   margin-top: 0;
   P{
     margin-bottom: 30px;
+    margin-right: 0;
   }
 
 }
