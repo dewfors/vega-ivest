@@ -70,17 +70,18 @@ header {
 }
 
 .header__content {
-  padding: 34px 0 23px;
+  padding: 15px 0 15px;
 }
 
 .header__content-inner {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__logo{
   img{
-    height: 36px;
+    height: 72px;
   }
 }
 
