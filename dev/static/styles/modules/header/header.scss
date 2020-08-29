@@ -78,6 +78,12 @@ header {
   justify-content: space-between;
 }
 
+.header__logo{
+  img{
+    height: 36px;
+  }
+}
+
 .menu li {
   display: inline-block;
 }
