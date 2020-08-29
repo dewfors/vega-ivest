@@ -1,0 +1,26 @@
+@media (max-width: 425px) {
+  .protection .protection__top{
+    padding-bottom: 15px;
+  }
+  .protection .protection__title-box{
+    margin-bottom: 0;
+  }
+  .protection .protection-title{
+    font-size: 30px;
+  }
+  .protection .protection__content{
+    font-size: 16px;
+  }
+
+}
+@media (max-width: 320px) {
+  .protection .protection-title{
+    font-size: 26px;
+    line-height: 40px;
+  }
+  .protection .protection__content{
+    font-size: 14px;
+  }
+
+}
+
