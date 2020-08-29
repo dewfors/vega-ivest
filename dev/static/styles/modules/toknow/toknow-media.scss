@@ -1,0 +1,34 @@
+@media (max-width: 425px) {
+
+  .toknow .toknow__title-box{
+    margin-bottom: 40px;
+  }
+  .toknow .toknow-title{
+    font-size: 30px;
+  }
+
+  .toknow .toknow__content-item{
+    padding: 0;
+    margin-bottom: 100px;
+    text-align: center;
+    &:last-child{
+      margin-bottom: 0;
+    }
+    &:before{
+      width: 50px;
+      height: 50px;
+
+      top: 0;
+      left: 50%;
+      transform: translateY(-120%) translateX(-50%);
+
+    }
+
+  }
+  .toknow .toknow__content-title{
+    font-size: 18px;
+  }
+  .toknow .toknow__content-text{
+    font-size: 16px;
+  }
+}
