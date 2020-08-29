@@ -1,18 +1,4 @@
-@media (max-width: 700px) {
-  .header__contacts {
-    text-align: center;
-  }
-  .header__email {
-    padding-right: 30px;
-  }
-  .header__btn {
-    float: none;
-    display: block;
-
-    &:before {
-      display: none;
-    }
-  }
+@media (max-width: 850px) {
   .header__btn-menu{
     display: block;
   }
@@ -40,6 +26,49 @@
 
 }
 
+@media (max-width: 700px) {
+
+  .header__contacts {
+    text-align: center;
+  }
+  .header__email {
+    padding-right: 30px;
+  }
+  .header__btn {
+    float: none;
+    display: block;
+
+    &:before {
+      display: none;
+    }
+  }
+  //.header__btn-menu{
+  //  display: block;
+  //}
+  //.menu ul{
+  //  display: none;
+  //  position: absolute;
+  //  left: 0;
+  //  right: 0;
+  //  margin-top: 20px;
+  //  z-index: 50;
+  //  & li{
+  //    display: block;
+  //    text-align: center;
+  //  }
+  //  & a{
+  //    display: block;
+  //    background-color: #ffc222;
+  //    border-top: 1px solid #ffffff;
+  //    border-bottom: 1px solid #ffffff;
+  //  }
+  //}
+  //.menu li + li{
+  //  padding-left: 0;
+  //}
+
+}
+
 @media (max-width: 408px) {
   .header__email {
     padding-bottom: 10px;
@@ -59,7 +88,8 @@
   }
 }
 
-@media (min-width: 700px) {
+//@media (min-width: 700px) {
+@media (min-width: 850px) {
   .menu ul {
     display: block !important;
   }
