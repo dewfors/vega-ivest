@@ -1,0 +1,48 @@
+@media (max-width: 1024px) {
+  .superfood .superfood__content {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+
+
+}
+
+@media (max-width: 768px) {
+
+  .superfood .superfood__top {
+    padding: 0;
+  }
+  .superfood .superfood__content-text {
+    max-width: 100%;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .superfood .superfood__content-slider {
+    max-width: 80%;
+    width: 80%;
+  }
+
+
+
+}
+@media (max-width: 425px) {
+
+  //.superfood .superfood__top {
+  //  padding: 0;
+  //}
+  //.superfood .superfood__content-text {
+  //  max-width: 100%;
+  //  width: 100%;
+  //  padding-bottom: 30px;
+  //}
+  .superfood .superfood__content-slider {
+    max-width: 100%;
+    width: 100%;
+  }
+
+
+
+}
+
+
