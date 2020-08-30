@@ -1,0 +1,41 @@
+
+@media (max-width: 425px) {
+  .why .why__title-box{
+    margin-bottom: 0;
+
+    .why-title{
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+  .why .why__content{
+    flex-direction: column;
+    padding-top: 0;
+    padding-bottom: 30px;
+    .why__content-text{
+      max-width: 100%;
+      padding-right: 0;
+      p{
+        font-size: 16px;
+      }
+    }
+    .why__content-img{
+      max-width: 100%;
+      display: contents;
+    }
+  }
+  .why .why__content-btn{
+    a{
+      font-size: 11px;
+    }
+  }
+
+
+
+}
+
+
+
+
+
+
