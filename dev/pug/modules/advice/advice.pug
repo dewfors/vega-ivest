@@ -7,14 +7,18 @@ section.advice
                     .advice-title.title-box__title Запишитесь на консультацию и получите финансовые данные и образец договора
             .advice__content
                 .form__box
-                    form
+                    form#form
                         .form__box-inner
                             .form__box-left
                                 label Имя
-                                    input(type="text" name="fio" placeholder="Имя" required)
+                                    input#fio(type="text" name="fio" placeholder="Имя" required)
                                 label E-mail
-                                    input(type="email" name="email" placeholder="email" required)
+                                    input#email(type="email" name="email" placeholder="email" required)
                                 label Контактный телефон в формате: 79998885533
-                                    input(type="tel" name="tel" pattern="[0-9]{10,11}" placeholder="79998885533" required)
+                                    input#tel(type="tel" name="tel" pattern="[0-9]{10,11}" placeholder="79998885533" required)
                             .form__box-button
                                 button.default-btn-invite(type="submit") Отправить
+                    .popup-fade
+                        .popup
+                            a.popup-close(href="#") Закрыть
+                            p Ваша заявка отправлена, скоро с Вами свяжется менеджер
