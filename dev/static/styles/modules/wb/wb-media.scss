@@ -11,20 +11,10 @@
     font-size: 16px;
   }
 }
-@media (max-width: 425px) {
-  .wb .wb__top{
-    flex-direction: column-reverse;
 
-  }
+@media (max-width: 670px) {
   .wb .wb__content{
     flex-direction: column;
-  }
-
-  .wb .wb__top-title{
-    font-size: 25px;
-    line-height: 35px;
-    max-width: 100%;
-    text-align: center;
   }
   .wb .wb__content-img{
     max-width: 100%;
@@ -35,4 +25,30 @@
     font-size: 16px;
     padding: 0;
   }
+}
+
+@media (max-width: 425px) {
+  .wb .wb__top{
+    flex-direction: column-reverse;
+
+  }
+  //.wb .wb__content{
+  //  flex-direction: column;
+  //}
+
+  .wb .wb__top-title{
+    font-size: 25px;
+    line-height: 35px;
+    max-width: 100%;
+    text-align: center;
+  }
+  //.wb .wb__content-img{
+  //  max-width: 100%;
+  //  margin-bottom: 30px;
+  //}
+  //.wb .wb__content-text{
+  //  max-width: 100%;
+  //  font-size: 16px;
+  //  padding: 0;
+  //}
 }
